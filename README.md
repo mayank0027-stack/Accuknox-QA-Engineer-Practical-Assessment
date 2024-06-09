@@ -1,5 +1,5 @@
 # Accuknox-QA-Engineer-Practical-Assessment
-# Question No: 1
+# Questions
 # 1. System Health Monitoring Script:
 # First, You need to install the psutil module using the below cmds: 
 1. Check the python version.
