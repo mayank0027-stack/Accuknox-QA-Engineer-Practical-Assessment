@@ -5,9 +5,6 @@ cpu_threshold = 80  # in percentage
 mem_threshold = 80  # in percentage
 disk_threshold = 80  # in percentage
 
-# Initialize alert flag
-alert_triggered = False
-
 def check_cpu_usage():
     cpu_usage = psutil.cpu_percent(interval=1)
     if cpu_usage > cpu_threshold:
